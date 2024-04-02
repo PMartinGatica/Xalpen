@@ -23,7 +23,7 @@ export const showDefaultLang = false;
 
 export const ui = {
 	es: {
-		'nav.contacto': 'Contacto',
+		'nav.inicio': 'Inicio',
 		'nav.vota': 'Vota',
 		'nav.info': 'Información',
 		'nav.archivo': 'Archivo',
@@ -32,7 +32,6 @@ export const ui = {
 		'nav.cookies': 'Cookies',
 	},
 	en: {
-		'nav.contacto': 'Contacto',
 		'nav.inicio': 'Home',
 		'nav.vota': 'Vote',
 		'nav.info': 'Information',
@@ -42,7 +41,6 @@ export const ui = {
 		'nav.cookies': 'Cookies',
 	},
 	ca: {
-		'nav.contacto': 'Contacto',
 		'nav.inicio': 'Inici',
 		'nav.vota': 'Vota',
 		'nav.info': 'Informació',
