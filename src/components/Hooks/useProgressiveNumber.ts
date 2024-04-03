@@ -4,7 +4,7 @@ export const useProgressiveNumber = (
 	initialValue: number | (() => number),
 	duration = 1500,
 	decimals = 0,
-	delay = 5
+	delay = 50
 ): [string, (value: string | ((prevTarget: number) => number)) => void] => {
 	const [target, setTarget] = useState(initialValue)
 	const [current, setCurrent] = useState(initialValue)
