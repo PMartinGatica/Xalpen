@@ -4,9 +4,11 @@ import Layout from "../layouts/Layout.astro"
 import HeroContainer from "../components/HeroContainer.astro"
 
 import Numeros from "../components/Numeros.astro"
+import Galeria from "../components/Galeria.astro"
 
 import Button from "../components/Button.tsx"
 
+import type Galeria from "../components/Galeria.astro"
 import { getI18N } from "../i18n"
 
 
@@ -29,6 +31,7 @@ const i18n = getI18N({ currentLocale })
   </HeroContainer>
 
   <main class="pb-24">
+    <Galeria />
     <Numeros />
   </main>
 </Layout>
