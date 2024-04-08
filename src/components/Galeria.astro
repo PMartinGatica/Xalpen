@@ -10,6 +10,8 @@ import 'photoswipe/style.css';
              class=" group rounded-xl  hover:scale-105 transition-all relative"
              href={`/ArchivoPage/Gallery/img-${i + 1}.jpg`} 
              target="_blank"
+             data-pswp-width = "1152"
+             data-pswp-height = "767"
              >
              
 
@@ -39,6 +41,7 @@ import 'photoswipe/style.css';
     const lightbox = new PhotoSwipeLightbox({
       gallery: '#gallery',
       children: 'a',
+      // showHideAnimationType:"fade",
       pswpModule: () => import('photoswipe')
     });
     lightbox.init();
