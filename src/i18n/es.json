@@ -5,7 +5,7 @@
 	"SEO": {
 		"ARCHIVO_TITLE": "Archivo de las ediciones anteriores - Premios ESLAND",
 		"ARCHIVO_DESCRIPTION": "Repasa los mejores momentos de ediciones anteriores",
-		"INFO_TITLE": "Información - Premios ESLAND",
+		"INFO_TITLE": "Xalpen Translados",
 		"INFO_DESCRIPTION_1": "Descubre todo lo que necesitas saber sobre los Premios ESLAND",
 		"INFO_DESCRIPTION_2": "y descarga el Kit de Prensa",
 		"VOTE_TITLE": "Vota por tus creadores de contenido favoritos - Premios ESLAND",
@@ -46,7 +46,7 @@
 	"VIDEO_BUTTON": "Vota",
 	"PREFOOTER_VIDEO_TITLE": "Guía de la 3ª Edición de los premios ESLAND",
 	"ARCHIVO": {
-		"HERO_TITLE": "IMAGENES",
+		"HERO_TITLE": "VIAJES",
 		"HERO_BUTTON": "Revive la última gala",
 		"COUNTER_TITLE": "Los ESLAND en números",
 		"COUNTER_VIEWS": "de visualizaciones",
@@ -86,7 +86,8 @@
 		},
 		"PRODUCED_BY": "USHUAIA"
 	},
-	"INFO_TITLE": "USHUAIA - DISFRUTA LA AVENTURA",
+	"INFO_TITLE": "USHUAIA",
+	"INFO_SUBTITLE": "DISFRUTA LA AVENTURA",
 	"INFO_TITLE_1": "Experiencias exclusivas en Ushuaia",
 	"INFO_CONTENT_1_1": "Descubre un servicio de turismo privado único en Ushuaia, donde cada traslado es personalizado para ti. Te llevamos a lugares como lagunas y te recomendamos los mejores lugares para disfrutar de la comida local a precios accesibles.",
 	"INFO_CONTENT_1_2": "Nuestros servicios te ofrecen la oportunidad de explorar Ushuaia de manera exclusiva, con guías expertos que te mostrarán lo mejor de esta increíble región.",

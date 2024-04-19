@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro"
-
+import "@fontsource-variable/onest"
+import '@fontsource/covered-by-your-grace';
 import HeroContainer from "../components/HeroContainer.astro"
 
 
@@ -14,9 +15,10 @@ const i18n = getI18N({ currentLocale })
 <Layout title=`${i18n.SEO.INFO_TITLE}&nbsp;${new Date().getFullYear()}` description=`${i18n.SEO.INFO_DESCRIPTION_1}&nbsp;${new Date().getFullYear()}&nbsp;${i18n.SEO.INFO_DESCRIPTION_2}`>
   <HeroContainer img="/public/backgroun-info.jpeg">
     <h1
-      class="lg:text-6xl text-5xl text-center uppercase font-tomaso tracking tracking-widest"
+      class="lg:text-6xl text-5xl text-center uppercase font-Covered By Your Grace tracking tracking-widest" id="titulo"
     >
-      {i18n.INFO_TITLE}
+      {i18n.INFO_TITLE} <br>
+      {i18n.INFO_SUBTITLE}
     </h1>
   </HeroContainer>
   <main class="pb-24">
@@ -36,7 +38,7 @@ const i18n = getI18N({ currentLocale })
         <img
           class="object-cover w-full h-full rounded-md"
           height={500}
-          src="/public/info-fagneano.jpeg"
+          src="/public/contacto-flor.jpeg"
           style={{
             aspectRatio: "812/556",
             objectFit: "cover",
@@ -53,7 +55,7 @@ const i18n = getI18N({ currentLocale })
         <img
           class="object-cover w-full h-full rounded-md"
           height={556}
-          src="/public/info-lagoescondidoplaya.jpeg"
+          src="/public/contacto-camioneta.jpeg"
           style={{
             aspectRatio: "812/556",
             objectFit: "cover",

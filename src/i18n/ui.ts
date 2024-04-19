@@ -25,8 +25,8 @@ export const ui = {
 	es: {
 		'nav.inicio': 'Inicio',
 		'nav.vota': 'Vota',
-		'nav.info': 'Información',
-		'nav.archivo': 'Archivo',
+		'nav.info': 'Nosotros',
+		'nav.archivo': 'Viajes',
 		'nav.legal': 'Aviso Legal',
 		'nav.privacidad': 'Privacidad',
 		'nav.cookies': 'Cookies',
