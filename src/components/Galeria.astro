@@ -2,15 +2,15 @@
 
 import 'photoswipe/style.css';
 
-
 ---
 
 <div class=" grid grid-cols-3 max-w-6xl gap-9 mx-auto py-20" id="gallery">
-    {
-        Array.from({ length: 9}).map((_, i) =>(
+
+   {
+        Array.from({ length: 6}).map((_, i) =>(
             <a 
              class=" group rounded-xl  hover:scale-105 transition-all relative"
-             href={`/ArchivoPage/Gallery/img-${i + 1}.jpg`} 
+             href={`/ArchivoPage/Gallery/img-${i + 1}.jpeg`} 
              target="_blank"
              data-pswp-width = "1152"
              data-pswp-height = "767"
@@ -31,10 +31,10 @@ import 'photoswipe/style.css';
              />
              </a>
         ))
-    }
+    } 
+
 
 </div>
-
 
 
 
