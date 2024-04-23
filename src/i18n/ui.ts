@@ -25,8 +25,8 @@ export const ui = {
 	es: {
 		'nav.inicio': 'Inicio',
 		'nav.vota': 'Vota',
-		'nav.info': 'Nosotros',
-		'nav.archivo': 'Viajes',
+		'nav.info': 'Informacion',
+		'nav.archivo': 'Ushuaia',
 		'nav.legal': 'Aviso Legal',
 		'nav.privacidad': 'Privacidad',
 		'nav.cookies': 'Cookies',
