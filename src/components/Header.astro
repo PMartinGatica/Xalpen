@@ -35,7 +35,7 @@ const translatePath = useTranslatedPath(lang);
     
       <nav
       id="header-menu"
-      class="fixed w-full h-dvh inset-0 bg-[#151a36]/90 md:text-xl lg:text-xl flex flex-col items-center justify-center gap-8 -translate-y-full transition-transform duration-300 target:translate-y-0 md:static md:h-[initial] md:bg-[initial] md:flex-row md:translate-y-[initial]"
+      class="fixed w-full h-screen inset-0 bg-[#151a36]/90 md:text-xl lg:text-xl flex flex-col items-center justify-center gap-8 -translate-y-full transition-transform duration-300 target:translate-y-0 md:static md:h-[initial] md:bg-[initial] md:flex-row md:translate-y-[initial]"
     >
       <HeaderLink class="text__glowing text-gray-400" href={translatePath('/info/')}>
         {t('nav.info')}
@@ -53,16 +53,16 @@ const translatePath = useTranslatedPath(lang);
       </Button>
      -->
      
-      <a href="#header-nav" class="md:hidden absolute top-6 right-6">
+      <a href="#header-nav" class="md:hidden absolute right-6">
         <CloseIcon />
       </a>
     </nav>
 
-    <div class=" mt-6 relative md:absolute right-6 md:top--10  md:right-10 ">
+    <div class=" mt-6 relative md:absolute right-6 md:top--10  md:right-10 top--10 ">
      <a  href="https://api.whatsapp.com/send?phone=5492901487229&text=Bienvenido%20a%20%20Xalpen%20Translados%20Ushuaia.%20Dejame tu mensaje%20y%20me%20comunicaré%20a%20la%20brevedad.%20Saludos!" class="icono whatsapp telefono d-inline-flex align-items-center justify-content-center " target="_blank"> <Whatsapp /></a>
      </div>
 
 
-    <a href="#header-menu" class="md:hidden"><MenuIcon /></a>
+    <a href="#header-menu" class="md:hidden  absolute top-6 right-8 "><MenuIcon /></a>
   </div>
 </header>
